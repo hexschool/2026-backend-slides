@@ -37,7 +37,10 @@ export const courses: Course[] = [
     sections: [
       {
         title: '課堂簡報',
-        slides: [],
+        slides: [
+          { id: 'obj-array', title: '1-1. 物件 vs 陣列', description: '搞懂何時用物件、何時用陣列，從生活情境到程式實作' },
+          { id: 'value-ref', title: '1-2. 傳值 vs 傳址', description: '從生活情境到程式概念，搞懂基本型別與物件型別的賦值差異' },
+        ],
       },
       {
         title: '資料結構',

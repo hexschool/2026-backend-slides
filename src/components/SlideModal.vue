@@ -58,6 +58,8 @@ const slideComponents: Record<string, ReturnType<typeof defineAsyncComponent>> =
   'crud-intro': defineAsyncComponent(() => import('./slides/CrudIntroSlide.vue')),
   // JS 直播班
   'calculator': defineAsyncComponent(() => import('./slides/CalculatorSlide.vue')),
+  'value-ref': defineAsyncComponent(() => import('./slides/ValueRefSlide.vue')),
+  'obj-array': defineAsyncComponent(() => import('./slides/ObjArraySlide.vue')),
 }
 
 const SlideComponent = computed(() => {
