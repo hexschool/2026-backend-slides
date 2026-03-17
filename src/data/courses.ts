@@ -42,6 +42,7 @@ export const courses: Course[] = [
           { id: 'value-ref', title: '1-2. 傳值 vs 傳址', description: '從生活情境到程式概念，搞懂基本型別與物件型別的賦值差異' },
           { id: 'if-logic', title: '2-1. 邏輯判斷之術', description: '比較運算子、邏輯運算子、if/else if/else 的情境式教學' },
           { id: 'expr-stmt', title: '2-2. 表達式 vs 陳述式', description: '搞懂表達式與陳述式，用變數和 if 拆解程式碼結構' },
+          { id: 'json-read', title: '3-1. 看懂 JSON 資料', description: '從 JSON 格式到讀懂真實 open data 與 API 回傳資料' },
         ],
       },
       {
