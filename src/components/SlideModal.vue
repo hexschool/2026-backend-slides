@@ -60,6 +60,8 @@ const slideComponents: Record<string, ReturnType<typeof defineAsyncComponent>> =
   'calculator': defineAsyncComponent(() => import('./slides/CalculatorSlide.vue')),
   'value-ref': defineAsyncComponent(() => import('./slides/ValueRefSlide.vue')),
   'obj-array': defineAsyncComponent(() => import('./slides/ObjArraySlide.vue')),
+  'if-logic': defineAsyncComponent(() => import('./slides/IfLogicSlide.vue')),
+  'expr-stmt': defineAsyncComponent(() => import('./slides/ExprStmtSlide.vue')),
 }
 
 const SlideComponent = computed(() => {
