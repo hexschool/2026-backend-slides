@@ -63,6 +63,8 @@ const slideComponents: Record<string, ReturnType<typeof defineAsyncComponent>> =
   'if-logic': defineAsyncComponent(() => import('./slides/IfLogicSlide.vue')),
   'expr-stmt': defineAsyncComponent(() => import('./slides/ExprStmtSlide.vue')),
   'json-read': defineAsyncComponent(() => import('./slides/JsonReadSlide.vue')),
+  'function-design': defineAsyncComponent(() => import('./slides/FunctionDesignSlide.vue')),
+  'array-methods-flow': defineAsyncComponent(() => import('./slides/ArrayMethodsFlowSlide.vue')),
 }
 
 const SlideComponent = computed(() => {
