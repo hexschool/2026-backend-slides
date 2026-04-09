@@ -65,6 +65,14 @@ const slideComponents: Record<string, ReturnType<typeof defineAsyncComponent>> =
   'json-read': defineAsyncComponent(() => import('./slides/JsonReadSlide.vue')),
   'function-design': defineAsyncComponent(() => import('./slides/FunctionDesignSlide.vue')),
   'array-methods-flow': defineAsyncComponent(() => import('./slides/ArrayMethodsFlowSlide.vue')),
+  // Day 6 — 串接 API
+  'api-restaurant': defineAsyncComponent(() => import('./slides/ApiRestaurantSlide.vue')),
+  'http-methods': defineAsyncComponent(() => import('./slides/HttpMethodsSlide.vue')),
+  'http-status': defineAsyncComponent(() => import('./slides/HttpStatusSlide.vue')),
+  'async-fetch-get': defineAsyncComponent(() => import('./slides/AsyncFetchGetSlide.vue')),
+  'livejs-intro': defineAsyncComponent(() => import('./slides/LivejsIntroSlide.vue')),
+  'fetch-write': defineAsyncComponent(() => import('./slides/FetchWriteSlide.vue')),
+  'fetch-error': defineAsyncComponent(() => import('./slides/FetchErrorSlide.vue')),
 }
 
 const SlideComponent = computed(() => {

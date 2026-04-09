@@ -45,6 +45,13 @@ export const courses: Course[] = [
           { id: 'json-read', title: '3-1. 看懂 JSON 資料', description: '從 JSON 格式到讀懂真實 open data 與 API 回傳資料' },
           { id: 'function-design', title: '4-1. 函式設計之術', description: '函式宣告/呼叫、參數、return、if+function、物件取值的情境式教學' },
           { id: 'array-methods-flow', title: '5-1. 陣列方法執行流程', description: '用慢動作重播帶你看懂 find / filter / some / map / reduce 的 callback 運作原理' },
+          { id: 'api-restaurant', title: '6-1. API 與餐廳', description: '為什麼需要 API + 餐廳比喻 + HTTP 對話' },
+          { id: 'http-methods', title: '6-2. HTTP 五個動作', description: 'GET/POST/PUT/PATCH/DELETE 與 RESTful 設計風格' },
+          { id: 'http-status', title: '6-3. HTTP 狀態碼', description: '五大類顏色卡片 + 4 開頭你的錯、5 開頭別人的錯' },
+          { id: 'async-fetch-get', title: '6-4. 非同步與 fetch GET', description: '同步/非同步 + Promise + async/await + fetch 三步驟與兩個坑' },
+          { id: 'livejs-intro', title: '6-5. LiveJS 註冊與第一個範例', description: '註冊 API Path + .env + getProducts 第一個 LiveJS 範例' },
+          { id: 'fetch-write', title: '6-6. fetch 寫資料', description: 'POST/PATCH/DELETE 三件套 + LiveJS 兩個坑（包 data、cartId）' },
+          { id: 'fetch-error', title: '6-7. 錯誤處理雙保險', description: 'try/catch + response.ok 兩種錯誤分開防、success/error 統一格式' },
         ],
       },
       {
