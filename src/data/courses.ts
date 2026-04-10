@@ -45,6 +45,8 @@ export const courses: Course[] = [
           { id: 'json-read', title: '3-1. 看懂 JSON 資料', description: '從 JSON 格式到讀懂真實 open data 與 API 回傳資料' },
           { id: 'function-design', title: '4-1. 函式設計之術', description: '函式宣告/呼叫、參數、return、if+function、物件取值的情境式教學' },
           { id: 'array-methods-flow', title: '5-1. 陣列方法執行流程', description: '用慢動作重播帶你看懂 find / filter / some / map / reduce 的 callback 運作原理' },
+          { id: 'architecture-intro', title: '6-0a. 系統架構入門', description: '前端、後端、資料庫各自的角色，用電商網站比喻搞懂三層架構' },
+          { id: 'api-demo', title: '6-0b. API 實際操作示範', description: '帶學員親眼看一次 API 從打請求到拿回資料的完整過程' },
           { id: 'api-restaurant', title: '6-1. API 與餐廳', description: '為什麼需要 API + 餐廳比喻 + HTTP 對話' },
           { id: 'http-methods', title: '6-2. HTTP 五個動作', description: 'GET/POST/PUT/PATCH/DELETE 與 RESTful 設計風格' },
           { id: 'http-status', title: '6-3. HTTP 狀態碼', description: '五大類顏色卡片 + 4 開頭你的錯、5 開頭別人的錯' },
