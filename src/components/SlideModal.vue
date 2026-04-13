@@ -73,6 +73,12 @@ const slideComponents: Record<string, ReturnType<typeof defineAsyncComponent>> =
   'livejs-intro': defineAsyncComponent(() => import('./slides/LivejsIntroSlide.vue')),
   'fetch-write': defineAsyncComponent(() => import('./slides/FetchWriteSlide.vue')),
   'fetch-error': defineAsyncComponent(() => import('./slides/FetchErrorSlide.vue')),
+  // Day 7 — 第三方套件
+  'fetch-vs-axios': defineAsyncComponent(() => import('./slides/FetchAxiosSlide.vue')),
+  'dayjs-format': defineAsyncComponent(() => import('./slides/DayjsFormatSlide.vue')),
+  'validation-check': defineAsyncComponent(() => import('./slides/ValidationCheckSlide.vue')),
+  // 企業內訓
+  'claude-code-install': defineAsyncComponent(() => import('./slides/ClaudeCodeInstallSlide.vue')),
 }
 
 const SlideComponent = computed(() => {

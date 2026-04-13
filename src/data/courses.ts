@@ -54,6 +54,9 @@ export const courses: Course[] = [
           { id: 'livejs-intro', title: '6-5. LiveJS 註冊與第一個範例', description: '註冊 API Path + .env + getProducts 第一個 LiveJS 範例' },
           { id: 'fetch-write', title: '6-6. fetch 寫資料', description: 'POST/PATCH/DELETE 三件套 + LiveJS 兩個坑（包 data、cartId）' },
           { id: 'fetch-error', title: '6-7. 錯誤處理雙保險', description: 'try/catch + response.ok 兩種錯誤分開防、success/error 統一格式' },
+          { id: 'dayjs-format', title: '7-1. dayjs 日期處理', description: 'dayjs 格式化、diff 計算、Unix timestamp，用猜猜看互動學會日期套件' },
+          { id: 'fetch-vs-axios', title: '7-2. fetch vs axios', description: '手排車 vs 自排車，三大差異對照：JSON 解析、Content-Type、錯誤處理' },
+          { id: 'validation-check', title: '7-3. 資料驗證', description: '驗證 pattern、蒐集所有 errors、regex 初體驗，幫使用者擋住錯誤資料' },
         ],
       },
       {
@@ -75,5 +78,18 @@ export const courses: Course[] = [
     title: 'AWS 培訓班',
     description: 'AWS 雲端服務部署與維運',
     sections: [],
+  },
+  {
+    id: 'enterprise-training',
+    title: '企業內訓',
+    description: '企業內訓課程教具',
+    sections: [
+      {
+        title: '環境安裝',
+        slides: [
+          { id: 'claude-code-install', title: 'Claude Code 環境安裝手冊', description: '帶學員完成 Claude Code 開發環境建置，預計 15-20 分鐘' },
+        ],
+      },
+    ],
   },
 ]
